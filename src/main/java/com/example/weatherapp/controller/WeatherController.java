@@ -36,7 +36,7 @@ public class WeatherController {
             description = "Search the current report of the city name filter. The api has rate limiting 10 request per minute",
             responses = {
                     @ApiResponse(responseCode = "200",
-                    description = "The current eather report of the city",
+                    description = "The current weather report of the city",
                     content = @Content(
                             mediaType = MediaType.APPLICATION_JSON_VALUE,
                             array = @ArraySchema(schema = @Schema(implementation = WeatherDto.class))

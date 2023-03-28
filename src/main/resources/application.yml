@@ -28,7 +28,7 @@ management:
           - prometheus
 weather-stack:
   api-url: http://api.weatherstack.com/current
-  api-key: ${WEATHER_STACK_API_KEY:default-key}
+  api-key: ${WEATHER_STACK_API_KEY:41658e0e90750cbd06bbe14a1af032ac}
   api-call-limit: 30
   cache-name: weather
   cache-ttl: 10000
